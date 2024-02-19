@@ -1,4 +1,4 @@
-const { response, json } = require('express');
+const { response } = require('express');
 const bcryptjs = require('bcryptjs');
 const Producto = require('../models/producto');
 
